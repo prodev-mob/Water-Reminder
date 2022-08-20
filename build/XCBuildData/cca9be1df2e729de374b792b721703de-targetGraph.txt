@@ -1,0 +1,9 @@
+Target dependency graph (4 targets)
+Charts in Pods, no dependencies
+Realm in Pods, no dependencies
+RealmSwift in Pods, depends on:
+Realm in Pods (explicit)
+Pods-Water Reminder in Pods, depends on:
+Charts in Pods (explicit)
+Realm in Pods (explicit)
+RealmSwift in Pods (explicit)

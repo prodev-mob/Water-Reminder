@@ -1,0 +1,36 @@
+
+/* Class = "UILabel"; text = "How much do you weight"; ObjectID = "0IF-78-lzG"; */
+"0IF-78-lzG.text" = "How much do you weight";
+
+/* Class = "UILabel"; text = "In order to provide tailored hydration advice, I need to get\nsome basic information. And I'll keep this a secret. "; ObjectID = "0bR-XZ-ayp"; */
+"0bR-XZ-ayp.text" = "In order to provide tailored hydration advice, I need to get\nsome basic information. And I'll keep this a secret. ";
+
+/* Class = "UILabel"; text = "When do you go to bed?"; ObjectID = "6YO-RW-Lkf"; */
+"6YO-RW-Lkf.text" = "When do you go to bed?";
+
+/* Class = "UIButton"; normalTitle = "NEXT"; ObjectID = "Hw7-ow-Wl5"; */
+"Hw7-ow-Wl5.normalTitle" = "NEXT";
+
+/* Class = "UIButton"; normalTitle = "Male"; ObjectID = "QwY-Wn-QRs"; */
+"QwY-Wn-QRs.normalTitle" = "Male";
+
+/* Class = "UILabel"; text = "What time do you wake up?"; ObjectID = "TqI-1W-IM2"; */
+"TqI-1W-IM2.text" = "What time do you wake up?";
+
+/* Class = "UIButton"; normalTitle = "Female"; ObjectID = "bT6-5Y-h6v"; */
+"bT6-5Y-h6v.normalTitle" = "Female";
+
+/* Class = "UIButton"; normalTitle = "NEXT"; ObjectID = "dtl-XT-ye4"; */
+"dtl-XT-ye4.normalTitle" = "NEXT";
+
+/* Class = "UIButton"; normalTitle = "NEXT"; ObjectID = "ekP-Qt-Uhj"; */
+"ekP-Qt-Uhj.normalTitle" = "NEXT";
+
+/* Class = "UIButton"; normalTitle = "NEXT"; ObjectID = "r0n-UJ-9zr"; */
+"r0n-UJ-9zr.normalTitle" = "NEXT";
+
+/* Class = "UILabel"; text = "Let me help you keep\nhydarted and healthy"; ObjectID = "r7j-48-xaj"; */
+"r7j-48-xaj.text" = "Let me help you keep\nhydarted and healthy";
+
+/* Class = "UIButton"; normalTitle = "LET'S GO"; ObjectID = "v5F-XU-27C"; */
+"v5F-XU-27C.normalTitle" = "LET'S GO";

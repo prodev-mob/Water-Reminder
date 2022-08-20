@@ -1,0 +1,91 @@
+/* 
+  Localizable.strings
+  Water Reminder
+
+  Created by macOS on 08/07/22.
+  
+*/
+//LaunchScreen
+"Water Reminder" = "जल अनुस्मारक";
+
+//Home Tab
+"Daily Goal"  = "दैनिक लक्ष्य";
+"Complete" = "पूर्ण";
+"Drink" = "पानी पिजिये";
+"ml" = "मिली";
+
+//History Tab
+"History" = "इतिहास";
+"Data not found..!" = "डेटा नहीं मिला..!";
+"Today`s record" = "आज का रिकॉर्ड";
+
+//Setting Tab
+"Setting" = "सेटिंग";
+
+//Header
+"Reminder setting" = "अनुस्मारक सेटिंग";
+"General" = "सामान्य";
+"Personal Information" = "व्यक्तिगत जानकारी";
+"Other" = "अन्य";
+ 
+//Reminder Setting
+"Reminder schedule" = "अनुस्मारक अनुसूची";
+"Reminder sound" = "अनुस्मारक ध्वनि";
+"Reminder mode" = "अनुस्मारक मोड";
+"Further reminder" = "आगे अनुस्मारक";
+
+//General
+"Remove ADS" = "विज्ञापन हटाएँ";
+"Dark Mode" = "डार्क मोड";
+"Unit" = "यूनिट";
+"Intake Goal" = "सेवन लक्ष्य";
+"Language" = "भाषा";
+
+//PersonalInfo
+"Gender" = "लिंग";
+"Weight" = "वज़न";
+"Wake-up time" = "जागना का समय";
+"Bedtime" = "सोने का समय";
+
+//Other
+"Hide tips on how to drink water" = "पानी पीने के टिप्स छुपाएं";
+"Why does Drink Water Reminder not work?" = "पानी पीने का रिमाइंडर क्यों काम नहीं करता?";
+"Reset data" = "डेटा रीसेट करें";
+"Feedback" = "प्रतिपुष्टि";
+"Share" = "शेयर";
+"Privacy policy" = "गोपनीयता नीति";
+
+//SubTitel
+"Still remind when your goal is achived" = "फिर भी याद दिलाएं जब आपका लक्ष्य प्राप्त हो जाए";
+
+//Button titles
+"As device settings" = "डिवाइस सेटिंग के रूप में";
+"kg, ml" = "किलो, मिली";
+"4000 ml" = "4000 मिली";
+"Male" = "पुरुष";
+"55 KG" = "55 किलो";
+"7:00 AM" = "7:00 AM";
+"12:00 PM" = "12:00 PM";
+
+//Alert
+//title & Messages
+"Water" = "पानी";
+"How much water do you drinked?" = "आपने कितना पानी पिया?";
+"Ex: 200(ml)" = "उदा: 200(मिली)";
+"Please Set Drinked Water" = "कृपया पानी सेट करें.";
+"Your daily limit is 4000 ml" = "आपकी दैनिक सीमा 4000 मिली है.";
+"Oops!" = "ओह!";
+"Warning" = "चेतावनी";
+"You have completed your daily limit..!" = "आपने अपनी दैनिक सीमा पूरी कर ली है..!";
+"Invalid input..!" = "गलत इनपुट..!";
+"Do you want to delete the selected cell?" = "क्या आप चुने हुए सेल को हटाना चाहते हैं?";
+"Please select language" = "कृपया भाषा चुनें";
+
+//Alert Action title
+"Error" = "गलती";
+"Drink" = "पानी पिजिये";
+"Cancel" = "रद्द करे";
+"Okay" = "ठीक है";
+"Edit" = "संपादित करें";
+"Delete" = "हटाये";
+"Cancel" = "रद्द करें";

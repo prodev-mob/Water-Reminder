@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="70" id="KGk-i7-Jjw" customClass="SettingTableViewCell" customModule="Water_Reminder" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="70"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="70"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vWi-7v-oyM">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="70"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="p88-hb-E8b">
+                                <rect key="frame" x="20" y="18" width="221" height="34"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reminder schedule" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ljP-lh-Y7c">
+                                        <rect key="frame" x="0.0" y="0.0" width="221" height="17"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reminder schedule" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="jZK-ue-3yR">
+                                        <rect key="frame" x="0.0" y="17" width="221" height="17"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="olR-mC-6pa">
+                                <rect key="frame" x="251" y="19.5" width="51" height="31"/>
+                            </switch>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e0w-7T-efi">
+                                <rect key="frame" x="254" y="20" width="46" height="30"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" name="cellColor"/>
+                        <constraints>
+                            <constraint firstItem="p88-hb-E8b" firstAttribute="centerY" secondItem="vWi-7v-oyM" secondAttribute="centerY" id="8Ui-wu-S1P"/>
+                            <constraint firstAttribute="trailing" secondItem="e0w-7T-efi" secondAttribute="trailing" constant="20" id="BFU-vS-KCe"/>
+                            <constraint firstAttribute="trailing" secondItem="olR-mC-6pa" secondAttribute="trailing" constant="20" id="KpF-8a-4kZ"/>
+                            <constraint firstItem="e0w-7T-efi" firstAttribute="centerY" secondItem="vWi-7v-oyM" secondAttribute="centerY" id="NSm-Ij-OgU"/>
+                            <constraint firstItem="olR-mC-6pa" firstAttribute="centerY" secondItem="vWi-7v-oyM" secondAttribute="centerY" id="P5A-Tx-W08"/>
+                            <constraint firstItem="olR-mC-6pa" firstAttribute="leading" secondItem="p88-hb-E8b" secondAttribute="trailing" constant="10" id="PjE-DY-DDw"/>
+                            <constraint firstItem="p88-hb-E8b" firstAttribute="leading" secondItem="vWi-7v-oyM" secondAttribute="leading" constant="20" id="j5b-xT-mzY"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" name="cellColor"/>
+                <constraints>
+                    <constraint firstItem="vWi-7v-oyM" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="3Ex-rJ-Aii"/>
+                    <constraint firstAttribute="bottom" secondItem="vWi-7v-oyM" secondAttribute="bottom" id="GK7-7W-yGX"/>
+                    <constraint firstAttribute="trailing" secondItem="vWi-7v-oyM" secondAttribute="trailing" id="h3b-A5-Yqd"/>
+                    <constraint firstItem="vWi-7v-oyM" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="iYk-Z0-UjB"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="button" destination="e0w-7T-efi" id="i4M-FJ-1MD"/>
+                <outlet property="settingSwitch" destination="olR-mC-6pa" id="9YZ-oK-DfN"/>
+                <outlet property="subtitleLabel" destination="jZK-ue-3yR" id="tBX-EH-yUx"/>
+                <outlet property="titleLabel" destination="ljP-lh-Y7c" id="GHv-Uw-7rW"/>
+            </connections>
+            <point key="canvasLocation" x="131.8840579710145" y="125.22321428571428"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="cellColor">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

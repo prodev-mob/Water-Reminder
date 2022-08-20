@@ -1,0 +1,92 @@
+/* 
+  Localizable.strings
+  Water Reminder
+
+  Created by macOS on 08/07/22.
+  
+*/
+
+//LaunchScreen
+"Water Reminder" = "Water Reminder";
+
+//Home Tab
+"Daily Goal" = "Daily Goal";
+"Complete" = "Complete";
+"Drink" = "Drink";
+"ml" = "ml";
+
+//History Tab
+"History" = "History";
+"Data not found..!" = "Data not found..!";
+"Today`s record" = "Today`s record";
+
+//Setting Tab
+"Setting" = "Setting";
+
+//Header
+"Reminder setting" = "Reminder setting";
+"General" = "General";
+"Personal information" = "Personal information";
+"Other" = "Other";
+
+// Reminder setting
+"Reminder schedule" = "Reminder schedule";
+"Reminder sound" = "Reminder sound";
+"Reminder mode" = "Reminder mode";
+"Further reminder" = "Further reminder";
+
+//General
+"Remove ADS" = "Remove ADS";
+"Dark Mode" = "Dark Mode";
+"Unit" = "Unit";
+"Intake Goal" = "Intake Goal";
+"Language" = "Language";
+
+//Personal information
+"Gender" = "Gender";
+"Weight" = "Weight";
+"Wake-up time" = "Wake-up time";
+"Bedtime" = "Bedtime";
+
+//Other
+"Hide tips on how to drink water" = "Hide tips on how to drink water";
+"Why does Drink Water Reminder not work?" = "Why does Drink Water Reminder not work?";
+"Reset data" = "Reset data";
+"Feedback" = "Feedback";
+"Share" = "Share";
+"Privacy policy" = "Privacy policy";
+
+//SubTitel
+"Still remind when your goal is achived" = "Still remind when your goal is achived";
+
+//Button
+"As device settings" = "As device settings";
+"kg, ml" = "kg, ml";
+"4000 ml" = "4000 ml";
+"Male" = "Male";
+"55 KG" = "55 KG";
+"7:00 AM" = "7:00 AM";
+"12:00 PM" = "12:00 PM";
+
+//Alert
+//title & Messages
+"How much water do you drinked?" = "How much water do you drinked?";
+"Ex: 200(ml)" = "Ex: 200(ml)";
+"Please Set Drinked Water" = "Please Set Drinked Water.";
+"Your daily limit is 4000 ml" = "Your daily limit is 4000 ml.";
+"Oops!" = "Oops!";
+"Warning" = "Warning";
+"You have completed your daily limit..!" = "You have completed your daily limit..!";
+"Invalid input..!" = "Invalid input..!";
+"Do you want to delete the selected cell?" = "Do you want to delete the selected cell?";
+"Please select language" = "Please select language";
+
+//Alert Action title
+"Error" = "Error";
+"Water" = "Water";
+"Drink" = "Drink";
+"Cancel" = "Cancel";
+"Okay" = "Okay";
+"Edit" = "Edit";
+"Delete" = "Delete";
+"Cancel" = "Cancel";
